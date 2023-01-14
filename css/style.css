@@ -265,4 +265,59 @@ navigation section styles start
     font-size: 1.2em;
     font-weight: 600;
 }
-/* END */
+
+/* -------
+    END
+-------- */
+/* --------------------
+   Our Sponsors styles
+----------------------- */
+.our-sponsors {
+    margin-top: 80px;
+}
+
+.sponsor-title {
+    color: #131313;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 700;
+}
+
+.sponsor-description {
+    color: #727272;
+    font-size: 1em;
+    text-align: center;
+}
+
+.sponsor-logo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 100px;
+    margin: 50px 200px;
+    justify-items: center;
+}
+
+/* -----
+   END
+------- */
+/* ----------------------
+   Footer section start
+------------------------ */
+.footer {
+    margin: 130px auto 20px;
+    text-align: center;
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 10px;
+}
+
+.footer p {
+    padding-top: 40px;
+    color: #424242;
+    font-size: 1.2em;
+}
+
+/*-------
+    END
+---------- */
