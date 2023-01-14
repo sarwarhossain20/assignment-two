@@ -59,6 +59,10 @@ navigation section styles start
     margin-right: 30px;
 }
 
+.menu-section ul li:hover a {
+    color: #FF900E;
+}
+
 .menu-section ul li a {
     text-decoration: none;
     color: #424242;
@@ -252,6 +256,13 @@ navigation section styles start
     text-align: center;
     padding: 45px;
     align-items: center;
+    transition: 1s ease;
+}
+
+.item:hover {
+    transform: rotate(360deg);
+    background-color: #FF900E;
+    color: #fff;
 }
 
 #feedback-name span {
