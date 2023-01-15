@@ -4,6 +4,10 @@
 /* ------------------------
 common styles and utilities
 -------------------------- */
+* {
+    padding: 0;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
     margin: 0 auto;
@@ -94,7 +98,7 @@ navigation section styles start
 }
 
 .banner-image img {
-    width: 1440px;
+    width: 100%;
     height: 700px;
     border-radius: 10px;
     margin-bottom: 45px;
@@ -106,11 +110,15 @@ navigation section styles start
 /*---------------------
  Work Environment styles
 ----------------------- */
+.image-gallery {
+    width: 60%;
+}
+
 .work-environment {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 85px 250px;
+    margin: 85px 80px;
     gap: 70px;
 }
 
@@ -122,8 +130,11 @@ navigation section styles start
 
 .images img {
     border-radius: 5px;
-    width: 342px;
-    height: 342px;
+    width: 100%;
+}
+
+.work-environment-text {
+    width: 40%;
 }
 
 .environment-title-one {
@@ -159,7 +170,11 @@ navigation section styles start
 .our-works {
     display: flex;
     gap: 54px;
-    margin: 20px 180px;
+    margin: 100px;
+}
+
+.our-work-texts {
+    width: 50%;
 }
 
 .work-section-title {
@@ -167,8 +182,7 @@ navigation section styles start
     font-size: 3em;
     font-weight: 700;
     border-left: 5px solid #FF900E;
-    padding-left: 20px;
-    margin-top: 6px;
+    padding-left: 10px;
 }
 
 .work-section-description {
@@ -184,7 +198,7 @@ navigation section styles start
 .work {
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-    padding: 30px;
+    padding: 10px 5px 5px 10px;
 }
 
 .work-title {
@@ -198,8 +212,13 @@ navigation section styles start
     font-size: 1em;
 }
 
+.our-work-image {
+    width: 50%;
+}
+
 .our-work-image img {
     border-radius: 5px;
+    width: 100%;
 }
 
 .experience-duration {
@@ -213,8 +232,9 @@ navigation section styles start
     border-radius: 8px;
     border: 0;
     font-size: 1.56em;
-    margin-top: -100px;
-    margin-left: 116px;
+    margin-top: -335px;
+    margin-left: -13px;
+    position: absolute;
 }
 
 .exprience-btn span {
@@ -304,8 +324,47 @@ navigation section styles start
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     column-gap: 100px;
-    margin: 50px 200px;
+    margin: 50px;
     justify-items: center;
+}
+
+.location {
+    display: flex;
+    gap: 50px;
+    margin: 30px 100px;
+}
+
+.directions {
+    width: 50%;
+}
+
+.google-map iframe {
+    border-radius: 5px;
+}
+
+.get-in-touch {
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input,
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    color: #E4E4E4;
+    margin-bottom: 10px;
+    border: 1px solid #FF900E;
+}
+
+#submit {
+    background-color: #FF900E;
+    font-size: 1.2em;
+    color: #fff;
+    border: 0;
 }
 
 /* -----
@@ -315,9 +374,9 @@ navigation section styles start
    Footer section start
 ------------------------ */
 .footer {
-    margin: 130px auto 20px;
+    margin: 100px auto 20px;
     text-align: center;
-    width: 1440px;
+    width: 100%;
     height: 100px;
     background: #FFF4E7;
     border-radius: 10px;
