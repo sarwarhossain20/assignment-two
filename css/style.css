@@ -501,6 +501,10 @@ textarea {
     .contact-title {
         font-size: 2em;
     }
+
+    .google-map iframe {
+        width: 100%;
+    }
 }
 
 /* Medium Devices */
